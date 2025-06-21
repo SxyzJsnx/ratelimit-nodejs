@@ -1,5 +1,5 @@
 {
-  "name": "ratelimit.js",
+  "name": "@sxyzjsnx/ratelimit.js",
   "version": "1.0.1",
   "description": "rate-limit support any framework backend (express, koa, fastify)",
   "main": "ratelimit.js",

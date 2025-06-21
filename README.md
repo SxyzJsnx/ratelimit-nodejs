@@ -1,4 +1,4 @@
-# RATELIMIT.JS
+# @SXYZJSNX/RATELIMITER.JS
 
 A flexible and lightweight rate limiting middleware for Node.js frameworks.
 
@@ -21,14 +21,14 @@ A flexible and lightweight rate limiting middleware for Node.js frameworks.
 ## Installation
 
 ```bash
-npm install ratelimit.js
+npm install @sxyzjsnx/ratelimit.js
 ```
 
 ## Quick Start
 
 ```javascript
 import express from "express";
-import rateLimit from "ratelimit.js";
+import rateLimit from "@sxyzjsnx/ratelimit.js";
 
 const app = express();
 
