@@ -68,23 +68,6 @@ app.listen(3000, () => {
 
 ## Advanced Usage
 
-### Custom Error Handler
-
-```javascript
-const limiter = rateLimit({
-   framework: "express",
-   max: 50,
-   windowMs: 60 * 1000,
-   onLimitReached: (req, res) => {
-      res.status(429).json({
-         error: "Rate limit exceeded",
-         retryAfter: 60,
-         timestamp: new Date().toISOString()
-      });
-   }
-});
-```
-
 ### Route-Specific Limits
 
 ```javascript
@@ -115,18 +98,14 @@ The middleware handles various scenarios:
 - **Invalid configuration**: Throws configuration error
 - **Framework compatibility**: Validates framework support
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
 ## License
 
-MIT © [Your Name]
+MIT © SxyzJsnx.
 
 ## Support
 
-- 📚 [Documentation](https://github.com/SxyzJsnx/ratelimit-nodejs.js)
-- 🐛 [Issue Tracker](https://github.com/SxyzJsnx/ratelimit-nodejs.js/issues)
+- 📚 [Documentation](https://github.com/SxyzJsnx/ratelimit-nodejs)
+- 🐛 [Issue Tracker](https://github.com/SxyzJsnx/ratelimit-nodejs/issues)
 
 ---
 
