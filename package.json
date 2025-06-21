@@ -1,0 +1,31 @@
+{
+  "name": "ratelimit.js",
+  "version": "1.0.1",
+  "description": "rate-limit support any framework backend (express, koa, fastify)",
+  "main": "ratelimit.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node ratelimit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SxyzJsnx/ratelimit-nodejs.git"
+  },
+  "keywords": [
+    "rate-limit",
+    "express",
+    "koa",
+    "fastify",
+    "rateLimiter"
+  ],
+  "author": "SxyzJsnx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SxyzJsnx/ratelimit-nodejs/issues"
+  },
+  "homepage": "https://github.com/SxyzJsnx/ratelimit-nodejs#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
