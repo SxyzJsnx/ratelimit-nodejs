@@ -1,4 +1,4 @@
-# @SXYZJSNX/RATELIMITER.JS
+# RATELIMITER.JS
 
 A flexible and lightweight rate limiting middleware for Node.js frameworks.
 
@@ -28,7 +28,7 @@ npm install @sxyzjsnx/ratelimit.js
 
 ```javascript
 import express from "express";
-import rateLimit from "@sxyzjsnx/ratelimit.js";
+import rateLimit from "ratelimit.js";
 
 const app = express();
 
